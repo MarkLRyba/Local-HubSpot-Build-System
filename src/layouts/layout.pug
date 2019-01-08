@@ -1,0 +1,30 @@
+doctype html
+html.no-js(lang="en")
+    head
+        block head
+            meta(charset="utf-8")
+            meta(http-equiv="x-ua-compatible" content="ie=edge")
+            meta(name="viewport" content="width=device-width, initial-scale=1")
+            link(rel="apple-touch-icon" href="apple-touch-icon.png")
+            link(href='style.min.css', rel='stylesheet')
+            //- link(rel="stylesheet" href="css/style.css")
+            //- script(src="js/vendor/modernizr-2.8.3.min.js")
+            //- title Page Title
+            //- meta(name="description" content="")
+    body
+        //
+            [if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <![endif]
+
+        // Add your site content here
+        block content
+            p   Hello world! This is Pug Boilerplate
+        block scripts
+            script(src="https://code.jquery.com/jquery-3.1.0.min.js")
+            //- script  window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')
+            //- script(src="js/plugins.js")
+            script(src="assets/scripts.js")
+            // Google Analytics: change UA-XXXXX-Y to be your site's ID.
+            //- script  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date; ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+            //- script(src="https://www.google-analytics.com/analytics.js" async defer)

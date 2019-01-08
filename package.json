@@ -1,0 +1,35 @@
+{
+  "name": "local-hs-build-system",
+  "version": "1.0.0",
+  "description": "A local build system for creating coded themes on the HubSpot CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "HubSpot",
+    "Build",
+    "System",
+    "SCSS",
+    "Pug",
+    "HubL"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.4.3",
+    "browser-sync": "^2.26.3",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "*",
+    "gulp-cssnano": "*",
+    "gulp-imagemin": "*",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "postcss-pxtorem": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.1"
+  },
+  "author": "Mark Ryba",
+  "license": "MIT"
+}

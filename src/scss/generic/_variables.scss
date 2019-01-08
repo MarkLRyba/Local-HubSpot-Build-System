@@ -1,0 +1,17 @@
+$black: rgba(0, 0, 0, 1);
+$white: rgba(255, 255, 255, 1);
+$darkBlue: #1f2a44;
+$brightBlue: #00b4e4;
+$blueGrey: #eaeef5;
+$textGrey: #818181;
+
+@mixin contained($width: 1072px) {
+    @if $width {
+        max-width: $width;
+    } @else {
+        max-width: 1072px;
+    }
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}

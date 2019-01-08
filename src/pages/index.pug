@@ -1,0 +1,13 @@
+extends ./../layouts/layout.pug
+
+include ./../modules/mixins.pug
+
+block append head
+    // Append any <head></head> content here
+block content
+    // Main page content goes here
+    .index
+        +header
+        +footer
+block append scripts
+    // Any extra JavaScript goes here
